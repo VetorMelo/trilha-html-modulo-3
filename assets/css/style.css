@@ -33,6 +33,45 @@ a { color:blue; text-decoration: none;}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
 figure {
     text-align: center;
+}
+
+#Pesquisar {
+    text-align: center;
+    border: solid lightgray;
+}
+
+#button {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button:hover {
+    background-color: #f9f9fb;
+    color: black;
+}
+
+.sidebarlink:hover {
+    background-color: rgb(187, 187, 187);
+    color: #f9f9fb;
+}
+
+#videogame {
+    display: center;
+    width: 860px;
+    height: 300px;
+    border: solid rgb(83, 83, 83);
+}
+
+.main {
+    text-align: justify;
+}
+
+.footer {
+    display: inline-flex;
+    padding: 20px;
 }
